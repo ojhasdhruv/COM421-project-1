@@ -1,0 +1,116 @@
+/* Basic Reset */
+body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation Styling */
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    margin-right: 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    background-color: #00264d;
+    border-radius: 4px;
+  }
+  
+  /* Main Content Styling */
+  main {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Indent module list under the text */
+  main ul.module-list {
+    margin-left: 2em;
+  }
+  
+  /* Figure and Blockquote Styling */
+  figure {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  blockquote {
+    margin: 20px;
+    padding-left: 20px;
+    border-left: 4px solid #ccc;
+    font-style: italic;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    background-color: #e6f0ff;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 4px solid #004080;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
+  /* Skip link styling */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #004080;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.3s;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }
+  
